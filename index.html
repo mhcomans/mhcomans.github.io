@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>mhComans</title>
+      <link rel="icon" type="image/png" sizes="32x15" href="img/mhc_favicon.png">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+      <style>
+         body,h1 {font-family: "Raleway", sans-serif}
+         body, html {height: 100%}
+         .bgimg {
+         background-image: url("img/background.jpg");
+         min-height: 100%;
+         background-position: center;
+         background-size: cover;
+         }
+         .logo {
+         width: 10vw;   /* 10 % de la largeur de l’écran */
+         height: auto;
+         }
+         .footer {
+         display: flex;
+         justify-content: center;
+         gap: 24px;
+         padding: 20px 0;
+         }
+         .footer-icon {
+         width: 28px;
+         height: auto;
+         opacity: 0.8;
+         transition: opacity 0.2s ease, transform 0.2s ease;
+         }
+         .footer-text {
+         margin: 0;
+         line-height: 1;           /* évite le décalage vertical */
+         font-size: 1.1rem;
+         }
+         .footer-icon:hover {
+         opacity: 1;
+         transform: scale(1.1);
+         }
+      </style>
+   </head>
+   <body>
+      <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+      <div class="w3-display-topleft w3-padding-large w3-xlarge">
+         <img src="img/mhc_logo.png" class="logo">
+      </div>
+      <div class="w3-display-middle">
+         <h1 class="w3-jumbo w3-animate-top">MHCOMANS</h1>
+         <hr class="w3-border-grey" style="margin:auto;width:40%">
+         <p class="w3-large w3-center">Data Engineering</p>
+      </div>
+      <footer class="footer w3-display-bottommiddle w3-padding-large">
+         <a href="mailto:contact@mhcomans.com" aria-label="Envoyer un email">
+         <img src="img/email.svg" alt="Email" class="footer-icon">
+         </a>
+         <span class="footer-text">siren: 100241066</span>
+         <a href="https://www.linkedin.com/in/marc-henry-comans/"
+            target="_blank" rel="noopener" aria-label="LinkedIn">
+         <img src="img/linkedin.svg" alt="LinkedIn" class="footer-icon">
+         </a>
+      </footer>
+      </d>
+   </body>
+</html>
